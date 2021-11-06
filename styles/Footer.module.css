@@ -1,0 +1,45 @@
+.container {
+    height: 250px;
+    border-top: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 50px;
+    background-color: rgba(121, 121, 121, 0.308);
+}
+
+.title {
+    font-weight: 400;
+    color: #fff;
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+}
+
+.linkTitle {
+    text-decoration: underline;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.linkText {
+    margin-right: 20px;
+}
+
+.cardL {
+    flex: 2;
+}
+
+.cardS {
+    flex: 1;
+}
+
+.carItem {
+    font-size: 18px;
+    padding: 13px;
+    font-weight: 400;
+}
