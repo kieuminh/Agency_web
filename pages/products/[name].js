@@ -1,7 +1,7 @@
 import {data} from "../../data"
 import styles from "../../styles/Product.module.css"
 import Image from "next/image"
-import Link from "next/Link"
+import Link from "next/link"
 
 const Product = ({product}) => {
     return (
