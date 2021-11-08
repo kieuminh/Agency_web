@@ -1,6 +1,8 @@
 .container {
     display: flex;
     padding: 50px;
+    height: calc(100vh - 300px);
+    /* height: 100vh; */
 }
 
 .cardL {
@@ -17,6 +19,7 @@
     width: 30%;
     margin: 5px;
     background-color: green;
+    position: relative;
 }
 
 .imgContainer:nth-child(3)  {
@@ -38,3 +41,52 @@
     margin-top: 50px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        flex-direction: column-reverse;
+        padding: 20px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .cardS {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardL {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardL::before {
+        content: "Projects";
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .imgContainer {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .button {
+        margin-top: 20px;
+        margin-bottom: 20px;       
+    }
+    
+}
+

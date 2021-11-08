@@ -12,13 +12,14 @@
     padding-right: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     position: relative;
 }
 
 .title {
     font-size: 50px;
     margin: 0;
+    margin-bottom: 100px;
 }
 
 .brand {
@@ -28,6 +29,7 @@
 .desc {
     font-size: 20px;
     margin: 0;
+    margin-bottom: 50px;
 }
 
 .button {
@@ -41,7 +43,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
     }

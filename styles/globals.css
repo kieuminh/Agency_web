@@ -24,3 +24,9 @@ a {
   opacity: 0.1;
   margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .circle {
+    display: none;
+  }
+}

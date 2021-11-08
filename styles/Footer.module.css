@@ -43,3 +43,20 @@
     padding: 13px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .title, .linkTitle {
+        font-size: 30px;
+    }
+
+    .carItem {
+        text-align: center;
+    }
+    
+}

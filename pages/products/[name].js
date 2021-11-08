@@ -9,9 +9,11 @@ const Product = ({product}) => {
             <div className={styles.cardL}>
                 {product.images.map(img=>(
                     <div key={img.id} className={styles.imgContainer} >
-                        <Image src={img.url} width="100%" height="100%" 
-                        layout="responsive"
-                        objectFit="cover" alt="" />
+                        <Image 
+                        src={img.url}                         
+                        objectFit="cover"
+                        layout="fill"
+                        alt="" />
                     </div>
                 ))}
             </div>
